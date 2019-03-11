@@ -9,8 +9,8 @@ for row in cwid:
     cwsj[row[0]]=[row[1].replace('\n',''),row[2].replace('\n','')]
 
 #定义查询类型:
-cxlx=5
-dc=1
+cxlx=2
+dc=0
 #只要编号=1 全要=0
 '''
 1按账号编号查询
