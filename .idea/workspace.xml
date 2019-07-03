@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="811f1e35-e0b5-49aa-9e54-95cc9c473d82" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/updata.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/查询界面.py" afterPath="$PROJECT_DIR$/查询界面.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/结果.txt" afterPath="$PROJECT_DIR$/结果.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,7 +17,8 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/jianben$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1552377014326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/jianben$.coverage" NAME="查询界面 Coverage Results" MODIFIED="1552377705401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/jianben$updata.coverage" NAME="updata Coverage Results" MODIFIED="1561511447592" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/jianben$.coverage" NAME="查询界面 Coverage Results" MODIFIED="1562137324272" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/jiaoben$.coverage" NAME="查询 Coverage Results" MODIFIED="1552219919677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/jiaoben$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1552219555182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/jiaoben$jiaoben.coverage" NAME="jiaoben Coverage Results" MODIFIED="1552186357759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -27,9 +32,10 @@
       <file leaf-file-name="查询.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/查询.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-50">
-              <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+            <state relative-caret-position="125">
+              <caret line="6" column="42" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="42" />
               <folding>
+                <element signature="e#0#14#0" expanded="true" />
                 <element signature="e#1800#3792#0" expanded="false" />
                 <marker date="1552375238275" expanded="true" signature="124:149" ph="SELECT * FRO... pad_duizhao" />
                 <marker date="1552375238275" expanded="true" signature="1832:1857" ph="SELECT * FRO... pad_shujuku" />
@@ -39,38 +45,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="查询界面.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/查询界面.py">
+      <file leaf-file-name="updata.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/updata.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="11" />
+            <state relative-caret-position="125">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding>
-                <element signature="e#724#2035#0" expanded="false" />
-                <marker date="1552378865599" expanded="true" signature="124:149" ph="SELECT * FRO... pad_duizhao" />
-                <marker date="1552378865599" expanded="true" signature="2098:2123" ph="SELECT * FRO... pad_shujuku" />
-                <marker date="1552378865599" expanded="true" signature="2190:2228" ph="SELECT * FRO... pad_shujuku" />
+                <marker date="1562137461512" expanded="true" signature="88:138" ph="SELECT 账号编号,... pad_huancun" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test1.py">
+      <file leaf-file-name="查询界面.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/查询界面.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="50">
-              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="10" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="测试.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/测试.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="46" column="23" lean-forward="true" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+            <state relative-caret-position="25">
+              <caret line="202" column="30" lean-forward="false" selection-start-line="202" selection-start-column="30" selection-end-line="202" selection-end-column="30" />
               <folding>
-                <element signature="e#0#21#0" expanded="true" />
+                <marker date="1562137461559" expanded="true" signature="453:478" ph="SELECT * FRO... pad_duizhao" />
+                <marker date="1562137461559" expanded="true" signature="2461:2486" ph="SELECT * FRO... pad_shujuku" />
+                <marker date="1562137461559" expanded="true" signature="2553:2591" ph="SELECT * FRO... pad_shujuku" />
+                <marker date="1562137461559" expanded="true" signature="4306:4331" ph="SELECT * FRO... pad_huancun" />
               </folding>
             </state>
           </provider>
@@ -87,6 +83,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -95,6 +94,7 @@
         <option value="$PROJECT_DIR$/测试.py" />
         <option value="$PROJECT_DIR$/查询.py" />
         <option value="$PROJECT_DIR$/test1.py" />
+        <option value="$PROJECT_DIR$/updata.py" />
         <option value="$PROJECT_DIR$/查询界面.py" />
       </list>
     </option>
@@ -106,10 +106,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="178" />
-    <option name="y" value="222" />
-    <option name="width" value="829" />
-    <option name="height" value="687" />
+    <option name="x" value="425" />
+    <option name="y" value="270" />
+    <option name="width" value="1132" />
+    <option name="height" value="715" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -130,7 +130,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mysite" />
     <property name="js.eslint.eslintPackage" value="" />
   </component>
   <component name="RecentsManager">
@@ -139,24 +139,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.查询界面">
-    <configuration default="false" name="jiaoben" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="jiaoben" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jiaoben.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
     <configuration default="false" name="查询" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -225,6 +207,24 @@
       <module name="jiaoben" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/查询界面.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="updata" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="jiaoben" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/updata.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -444,19 +444,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.jiaoben" />
-      <item index="1" class="java.lang.String" itemvalue="Python.查询" />
-      <item index="2" class="java.lang.String" itemvalue="Python.测试" />
-      <item index="3" class="java.lang.String" itemvalue="Python.test1" />
-      <item index="4" class="java.lang.String" itemvalue="Python.查询界面" />
+      <item index="0" class="java.lang.String" itemvalue="Python.查询" />
+      <item index="1" class="java.lang.String" itemvalue="Python.测试" />
+      <item index="2" class="java.lang.String" itemvalue="Python.test1" />
+      <item index="3" class="java.lang.String" itemvalue="Python.查询界面" />
+      <item index="4" class="java.lang.String" itemvalue="Python.updata" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.查询界面" />
-        <item index="1" class="java.lang.String" itemvalue="Python.test1" />
-        <item index="2" class="java.lang.String" itemvalue="Python.查询" />
-        <item index="3" class="java.lang.String" itemvalue="Python.测试" />
-        <item index="4" class="java.lang.String" itemvalue="Python.jiaoben" />
+        <item index="1" class="java.lang.String" itemvalue="Python.updata" />
+        <item index="2" class="java.lang.String" itemvalue="Python.test1" />
+        <item index="3" class="java.lang.String" itemvalue="Python.查询" />
+        <item index="4" class="java.lang.String" itemvalue="Python.测试" />
       </list>
     </recent_temporary>
   </component>
@@ -478,7 +478,14 @@
       <option name="project" value="LOCAL" />
       <updated>1552378896570</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="3.12公司更新">
+      <created>1552378957303</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1552378957303</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">
@@ -491,7 +498,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="178" y="222" width="829" height="687" extended-state="0" />
+    <frame x="425" y="270" width="1132" height="715" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18116592" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -500,19 +507,19 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861635" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31119543" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3099099" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -534,9 +541,213 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/查询.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="6" column="42" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#1800#3792#0" expanded="false" />
+            <marker date="1552375238275" expanded="true" signature="124:149" ph="SELECT * FRO... pad_duizhao" />
+            <marker date="1552375238275" expanded="true" signature="1832:1857" ph="SELECT * FRO... pad_shujuku" />
+            <marker date="1552375238275" expanded="true" signature="1924:1962" ph="SELECT * FRO... pad_shujuku" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/updata.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <marker date="1562137461512" expanded="true" signature="88:138" ph="SELECT 账号编号,... pad_huancun" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/查询界面.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1562137461559" expanded="true" signature="453:478" ph="SELECT * FRO... pad_duizhao" />
+            <marker date="1562137461559" expanded="true" signature="2461:2486" ph="SELECT * FRO... pad_shujuku" />
+            <marker date="1562137461559" expanded="true" signature="2553:2591" ph="SELECT * FRO... pad_shujuku" />
+            <marker date="1562137461559" expanded="true" signature="4306:4331" ph="SELECT * FRO... pad_huancun" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/查询.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="6" column="42" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#1800#3792#0" expanded="false" />
+            <marker date="1552375238275" expanded="true" signature="124:149" ph="SELECT * FRO... pad_duizhao" />
+            <marker date="1552375238275" expanded="true" signature="1832:1857" ph="SELECT * FRO... pad_shujuku" />
+            <marker date="1552375238275" expanded="true" signature="1924:1962" ph="SELECT * FRO... pad_shujuku" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/updata.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <marker date="1562137461512" expanded="true" signature="88:138" ph="SELECT 账号编号,... pad_huancun" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/查询界面.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1562137461559" expanded="true" signature="453:478" ph="SELECT * FRO... pad_duizhao" />
+            <marker date="1562137461559" expanded="true" signature="2461:2486" ph="SELECT * FRO... pad_shujuku" />
+            <marker date="1562137461559" expanded="true" signature="2553:2591" ph="SELECT * FRO... pad_shujuku" />
+            <marker date="1562137461559" expanded="true" signature="4306:4331" ph="SELECT * FRO... pad_huancun" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/查询.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="6" column="42" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#1800#3792#0" expanded="false" />
+            <marker date="1552375238275" expanded="true" signature="124:149" ph="SELECT * FRO... pad_duizhao" />
+            <marker date="1552375238275" expanded="true" signature="1832:1857" ph="SELECT * FRO... pad_shujuku" />
+            <marker date="1552375238275" expanded="true" signature="1924:1962" ph="SELECT * FRO... pad_shujuku" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/updata.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1562137461512" expanded="true" signature="88:138" ph="SELECT 账号编号,... pad_huancun" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/查询.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#1800#3792#0" expanded="false" />
+            <marker date="1552375238275" expanded="true" signature="124:149" ph="SELECT * FRO... pad_duizhao" />
+            <marker date="1552375238275" expanded="true" signature="1832:1857" ph="SELECT * FRO... pad_shujuku" />
+            <marker date="1552375238275" expanded="true" signature="1924:1962" ph="SELECT * FRO... pad_shujuku" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/查询.py">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
           <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
           <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#1800#3792#0" expanded="false" />
+            <marker date="1552375238275" expanded="true" signature="124:149" ph="SELECT * FRO... pad_duizhao" />
+            <marker date="1552375238275" expanded="true" signature="1832:1857" ph="SELECT * FRO... pad_shujuku" />
+            <marker date="1552375238275" expanded="true" signature="1924:1962" ph="SELECT * FRO... pad_shujuku" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/查询界面.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/查询.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#1800#3792#0" expanded="false" />
+            <marker date="1552375238275" expanded="true" signature="124:149" ph="SELECT * FRO... pad_duizhao" />
+            <marker date="1552375238275" expanded="true" signature="1832:1857" ph="SELECT * FRO... pad_shujuku" />
+            <marker date="1552375238275" expanded="true" signature="1924:1962" ph="SELECT * FRO... pad_shujuku" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/查询界面.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/查询.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#1800#3792#0" expanded="false" />
+            <marker date="1552375238275" expanded="true" signature="124:149" ph="SELECT * FRO... pad_duizhao" />
+            <marker date="1552375238275" expanded="true" signature="1832:1857" ph="SELECT * FRO... pad_shujuku" />
+            <marker date="1552375238275" expanded="true" signature="1924:1962" ph="SELECT * FRO... pad_shujuku" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/查询.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#1800#3792#0" expanded="false" />
+            <marker date="1552375238275" expanded="true" signature="124:149" ph="SELECT * FRO... pad_duizhao" />
+            <marker date="1552375238275" expanded="true" signature="1832:1857" ph="SELECT * FRO... pad_shujuku" />
+            <marker date="1552375238275" expanded="true" signature="1924:1962" ph="SELECT * FRO... pad_shujuku" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/查询界面.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/测试.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1100">
+          <caret line="46" column="23" lean-forward="true" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/查询.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
             <element signature="e#1800#3792#0" expanded="false" />
             <marker date="1552375238275" expanded="true" signature="124:149" ph="SELECT * FRO... pad_duizhao" />
             <marker date="1552375238275" expanded="true" signature="1832:1857" ph="SELECT * FRO... pad_shujuku" />
@@ -549,7 +760,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -557,9 +767,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5200">
           <caret line="208" column="0" lean-forward="false" selection-start-line="208" selection-start-column="0" selection-end-line="210" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -568,6 +775,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="e#0#14#0" expanded="true" />
             <element signature="e#1800#3792#0" expanded="false" />
             <marker date="1552375238275" expanded="true" signature="124:149" ph="SELECT * FRO... pad_duizhao" />
             <marker date="1552375238275" expanded="true" signature="1832:1857" ph="SELECT * FRO... pad_shujuku" />
@@ -580,7 +788,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -588,9 +795,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6570">
           <caret line="221" column="23" lean-forward="false" selection-start-line="221" selection-start-column="23" selection-end-line="221" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -599,6 +803,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="e#0#14#0" expanded="true" />
             <element signature="e#1800#3792#0" expanded="false" />
             <marker date="1552375238275" expanded="true" signature="124:149" ph="SELECT * FRO... pad_duizhao" />
             <marker date="1552375238275" expanded="true" signature="1832:1857" ph="SELECT * FRO... pad_shujuku" />
@@ -611,7 +816,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
           <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -619,9 +823,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6570">
           <caret line="221" column="23" lean-forward="true" selection-start-line="221" selection-start-column="23" selection-end-line="221" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -637,6 +838,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
+            <element signature="e#0#14#0" expanded="true" />
             <element signature="e#1800#3792#0" expanded="false" />
             <marker date="1552375238275" expanded="true" signature="124:149" ph="SELECT * FRO... pad_duizhao" />
             <marker date="1552375238275" expanded="true" signature="1832:1857" ph="SELECT * FRO... pad_shujuku" />
@@ -653,18 +855,40 @@
       </provider>
     </entry>
     <entry file="file://E:/PAD/get_bianhao.py" />
+    <entry file="file://$PROJECT_DIR$/test1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/测试.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="36" column="28" lean-forward="true" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/pad/patujian.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/jiaoben.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
+        <state relative-caret-position="200">
           <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/查询.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-50">
-          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
+        <state relative-caret-position="125">
+          <caret line="6" column="42" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="42" />
           <folding>
+            <element signature="e#0#14#0" expanded="true" />
             <element signature="e#1800#3792#0" expanded="false" />
             <marker date="1552375238275" expanded="true" signature="124:149" ph="SELECT * FRO... pad_duizhao" />
             <marker date="1552375238275" expanded="true" signature="1832:1857" ph="SELECT * FRO... pad_shujuku" />
@@ -673,33 +897,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/测试.py">
+    <entry file="file://$PROJECT_DIR$/updata.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="46" column="23" lean-forward="true" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+        <state relative-caret-position="125">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
-            <element signature="e#0#21#0" expanded="true" />
+            <marker date="1562137461512" expanded="true" signature="88:138" ph="SELECT 账号编号,... pad_huancun" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="10" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/查询界面.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="34" column="5" lean-forward="true" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="11" />
+        <state relative-caret-position="25">
+          <caret line="202" column="30" lean-forward="false" selection-start-line="202" selection-start-column="30" selection-end-line="202" selection-end-column="30" />
           <folding>
-            <element signature="e#724#2035#0" expanded="false" />
-            <marker date="1552378865599" expanded="true" signature="124:149" ph="SELECT * FRO... pad_duizhao" />
-            <marker date="1552378865599" expanded="true" signature="2098:2123" ph="SELECT * FRO... pad_shujuku" />
-            <marker date="1552378865599" expanded="true" signature="2190:2228" ph="SELECT * FRO... pad_shujuku" />
+            <marker date="1562137461559" expanded="true" signature="453:478" ph="SELECT * FRO... pad_duizhao" />
+            <marker date="1562137461559" expanded="true" signature="2461:2486" ph="SELECT * FRO... pad_shujuku" />
+            <marker date="1562137461559" expanded="true" signature="2553:2591" ph="SELECT * FRO... pad_shujuku" />
+            <marker date="1562137461559" expanded="true" signature="4306:4331" ph="SELECT * FRO... pad_huancun" />
           </folding>
         </state>
       </provider>
